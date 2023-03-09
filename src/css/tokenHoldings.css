@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.balances {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+
+    align-content: flex-start;
+    align-items: center;
+
+    width: 30%;
+}
+
+.balanceInfo {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}

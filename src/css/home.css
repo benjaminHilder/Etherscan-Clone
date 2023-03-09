@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+  font-size: 1.7vh;
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  background-color: white;
+  color: rgb(77, 77, 77);
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main {
+  position: relative;
+  top: 6vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeSearchArea {
+
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homeSearchArea input {
+  border: solid;
+  border-radius: 0.4vh;
+  border-width: 0.4vh;
+
+  position: relative;
+
+  font-weight:bold;
+  font-size: 2vh;
+  width: 40%;
+
+}
+
+
+.homeLatestInfoAll {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vh;
+  width: 100%;
+}
+
+.homeLatestArea {
+  width: 40%;
+  display:flex;
+  flex-direction: column;
+}
+
+.homeLatestInfoTitle {
+  float: left;
+}
+
+.homeLatestInfo {
+  position: relative;
+  border: solid;
+  border-radius: 1vh;
+  border-color: black;
+  border-bottom-color: white;
+  width:99%;
+  height: 132vh;
+}
+
+.homeLatestInfoTemplate {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: solid;
+  border-color: black;
+
+  height: 12.9vh;
+}
+
+.homeLatestInfoCenter {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homeLatestInfoCenterRow {
+  display:flex;
+  flex-direction: row;
+  white-space: pre-wrap;
+}
+
+.homeLatestInfoButtons {
+  position: relative;
+  top: 3vh;
+  height: 2.5vh;
+  all:unset;
+  font-weight:bold;
+  outline: auto;
+
+  cursor: pointer;
+  display: inline-block;
+
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+
+  width: 8vh;
+
+  height: 3vh;
+}
+
+.searchText {
+  border-color: white;
+  font-size: 2vh;
+}
+
+.searchButton {
+  font-size: 2vh;
+  font-weight: bold;
+  color: black;
+
+  border: solid;
+  border-radius: 0.5vh;
+
+  padding-left: 1vh;
+  padding-right: 1vh;
+  margin-left: 1vh;
+}
+
+.searchButton:hover {
+  border-color: black;
+  background-color: black;
+  color:white;
+}

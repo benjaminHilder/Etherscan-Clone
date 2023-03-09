@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.nftDisplay {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 81.49%;
+
+
+    border:solid;
+    border-radius: 0.5vh;
+}
+
+.imageContainer button {
+
+}
+
+.imageContainer img {
+    position: relative;
+    display: block;
+    height: 20vh;
+    width: 20vh;
+
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+
+    transition-duration: 0.11s;
+}
+
+.imageContainer:hover img{
+    filter:brightness(50%)
+}
+
+.nftButtons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 10%;
+
+    position: absolute;
+    transform: translate(8%,-400%);
+}
+
+.imageButton img{
+    width: 1vh;
+}
+
+.nftButtons button{
+    
+}

@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main {
+  position: relative;
+  top: 6vh;
+
+  display:flex;
+  justify-content: center;
+}
+/*******************************/
+.transactionMain {
+  width: 60%
+}
+.transaction {
+  display:flex;
+  align-content: flex-start;
+  border:solid;
+  border-radius: 0.6vh;
+  
+  position: relative;
+  transform: translateY(10%);
+  padding-left: 2vh;
+}
+.transaction > .titles {
+  text-align: left;
+  position:relative;
+  
+  width: 40vh;
+}
+
+.transaction > .data {
+  text-align: left;
+}
+
+/*******************************/
+
+.blockMain {
+  width: 50%
+}
+.block {
+  display:flex;
+  align-content: flex-start;
+  border:solid;
+  border-radius: 0.6vh;
+  
+  
+  position: relative;
+  transform: translateY(10%);
+  padding-left: 2vh;
+}
+
+.block > .titles {
+  text-align: left;
+  position:relative;
+  
+  width: 40vh;
+}
+
+.block > .data {
+  text-align: left;
+}
+/*******************************/
+.account {
+  display:flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 90%;
+}
+/*-----------TOP INFO----------*/
+.account > .topInfo {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.account > .topInfo > .topInfoBox {
+  
+  width: 35%;
+  height: 20vh;
+
+  border:solid;
+  border-radius: 1vh;
+
+  margin: 1vh;
+  padding-right: 1.4vh;
+}
+
+.account > .topInfo > .topInfoBox > .title {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-left: 5%;
+}
+
+.account > .topInfo > .topInfoBox > .topInfoBoxInner {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+
+}
+
+.account > .topInfo > .topInfoBox > .topInfoBoxInner > .titles {
+  text-align: left;
+  position: relative;
+  
+  width: 45%;
+
+  padding-left: 5%;
+}
+
+.account > .topInfo > .topInfoBox > .topInfoBoxInner > .data {
+  text-align: left;
+
+  width: 45%;
+
+  padding-right: 5%;
+  
+}
+
+.getBalanceButton  {
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0.4vh;
+  padding-bottom: 0.4vh;
+
+  border: solid;
+  border-radius: 0.5vh;
+}
+
+
+/*-----------TOP INFO----------*/
+.account > .bottomInfo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+.account > .bottomInfo > .transactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3%;
+}
+
+.account > .bottomInfo > .transactions > .transactionInfo > .transactionInfoItem {
+  padding-right: 4vh;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*******************************/
+
+.searchText > .linkText{
+  font-size:2vh
+}
